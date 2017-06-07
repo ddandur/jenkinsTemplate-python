@@ -10,7 +10,7 @@ class TestArrayPartition1(unittest.TestCase):
         self.assertEqual(self.sln.ArrayPairSum([1,4,2,3]), 4)
 
     def test_str(self):
-        assertEqual(self.sln.ArrayPairSum(["herp", "derp"]), 0)
+        self.assertEqual(self.sln.ArrayPairSum(["herp", "derp"]), 0)
 
 
 if __name__ == '__main__':
