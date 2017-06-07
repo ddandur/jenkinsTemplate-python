@@ -5,6 +5,8 @@ class Solution(object):
         :rtype: int
         """
 
+        # A NEW SMALL COMMENT TO TEST JENKINS
+
         # sort list and group neighboring pairs;
         # this means instead of smallest half of values being summed
         # (worst case) the small values are eliminated as fast as possible
